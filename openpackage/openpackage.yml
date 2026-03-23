@@ -1,0 +1,6 @@
+name: gemara-skills
+version: 1.0.0
+description: AI skills for creating and validating Gemara security artifacts — threat catalogs, control catalogs, and CUE schema validation
+keywords: [gemara, security, compliance, threat-assessment, control-catalog, cue, yaml, grc]
+author: gvauter
+license: Apache-2.0

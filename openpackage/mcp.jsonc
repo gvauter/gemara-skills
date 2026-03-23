@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gemara-mcp": {
+      "command": "docker",
+      "args": ["run", "-i", "--rm", "ghcr.io/gemaraproj/gemara-mcp:latest", "serve"]
+    }
+  }
+}
