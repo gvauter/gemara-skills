@@ -1,0 +1,11 @@
+name: Lola Policy Check
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  policy:
+    uses: gvauter/lola-attest/.github/workflows/reusable-lola-policy-check.yml@main
+    with:
+      module-path: ./module
